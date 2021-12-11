@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    @apply w-full h-screen;
+  }
+  body {
+    @apply bg-elephant h-full;
+    font-family: "Roboto", sans-serif;
+  }
+  .editor {
+    @apply w-full bg-transparent placeholder-bermuda-gray outline-none text-2xl border-2 border-cloud-burst p-4 text-gray-100 mt-5;
+  }
+
+  .editor * {
+    @apply border-cloud-burst;
+  }
+
+  .editor .ce-code__textarea {
+    @apply bg-cloud-burst border-cloud-burst text-gray-100;
+  }
+  .editor .ce-header {
+    @apply text-3xl font-bold text-white;
+  }
+
+  .editor .ce-block--selected .ce-block__content [contenteditable] {
+    @apply bg-cloud-burst;
+  }
+
+  .editor .ce-block.ce-block--focused {
+    @apply selection:bg-cloud-burst;
+  }
+
+  .editor a {
+    @apply text-cornflower-blue;
+  }
+
+  .editor .link-tool__input-holder--error .link-tool__input,
+  .editor .link-tool__input {
+    @apply bg-cloud-burst text-gray-100 border-cloud-burst;
+  }
+
+  .editor .ce-inline-tool-input.ce-inline-tool-input--showed {
+    @apply text-elephant;
+  }
+
+  .editor .ce-inline-tool,
+  .editor .ce-conversion-toolbar,
+  .editor .ce-toolbar.ce-toolbar--opened,
+  .editor .ce-toolbox.ce-toolbox--opened,
+  .editor .ce-inline-toolbar--showed,
+  .editor .ce-conversion-toolbar--showed,
+  .editor .ce-toolbar__actions .ce-toolbar__settings-btn {
+    @apply bg-bermuda-gray;
+  }
+
+  .editor .ce-toolbar__actions .ce-toolbar__settings-btn,
+  .editor .ce-toolbox__button {
+    @apply text-gray-300 transition-colors duration-200;
+  }
+
+  .editor .ce-toolbar__actions .ce-toolbar__settings-btn:hover,
+  .editor .ce-toolbox__button--active,
+  .editor .ce-toolbox__button:hover {
+    @apply text-white;
+  }
+
+  .editor .ce-inline-toolbar__dropdown:hover {
+    @apply bg-white text-bermuda-gray transition-colors duration-200;
+  }
+
+  .editor .ce-inline-toolbar__buttons button {
+    @apply text-rock-blue transition-colors duration-200;
+  }
+
+  .editor .ce-inline-toolbar__buttons button:hover {
+    @apply text-white;
+  }
+
+  .editor .ce-conversion-toolbar__label {
+    @apply text-cloud-burst;
+  }
+
+  .editor .ce-inline-tool--active {
+    @apply bg-cranberry;
+  }
+
+  .editor textarea {
+    @apply bg-transparent;
+  }
+
+  .post-content a {
+    @apply underline text-cornflower-blue;
+  }
+}
