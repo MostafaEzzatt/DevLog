@@ -20,8 +20,8 @@ The Project Didnt Finish Yet Still Want To Add Some Stuff
 
 - Add Weekly News Paper For All Users Authorized or Not
   - Create The Front End
-  - What Should The DB Looks Like
-    ![image](https://user-images.githubusercontent.com/16215816/145696500-c3d36c3d-9998-49fa-b5f9-2684c51825c2.png)
+  - HOW Should DB Looks Like
+         ![image](https://user-images.githubusercontent.com/16215816/145696500-c3d36c3d-9998-49fa-b5f9-2684c51825c2.png)
   - When User Add His/Her Email To The News Paper Add Get Added to the DB Successfully User Get Notified
 - Add Sign in/Sign Up With Twitter
 
