@@ -19,10 +19,10 @@ The Project Didnt Finish Yet Still Want To Add Some Stuff
 ## Next Todos
 
 - Add Weekly News Paper For All Users Authorized or Not
-  - Create The Front End
-  - HOW Should DB Looks Like
+  - Create The Front End `[Done]`
+  - HOW Should DB Looks Like `[Done]`
          ![image](https://user-images.githubusercontent.com/16215816/145696500-c3d36c3d-9998-49fa-b5f9-2684c51825c2.png)
-  - When User Add His/Her Email To The News Paper Add Get Added to the DB Successfully User Get Notified
+  - When User Add His/Her Email To The News Paper Add Get Added to the DB Successfully User Get Notified `[Done]`
 - Add Sign in/Sign Up With Twitter
 
 ## Dependencies
